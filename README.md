@@ -8,7 +8,7 @@ Sam Adams
 
 ## Basic Mapping
 
-- [First map in QGIS](basic-mapping/age-index-mapping.ipynb)
+- [First map in QGIS](basic-mapping/first-qgis-mapping.ipynb)
 - [Map the age index based on 2000 census data](basic-mapping/age-index-mapping.ipynb)
 
 ## Map Coordinate Basics
