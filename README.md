@@ -14,4 +14,4 @@ Sam Adams
 ## Map Coordinate Basics
 
 - [Understanding map coordinates](map-coordinate-basics/understanding-coordinates.ipynb)
-- [Georeference a 1960s Miami University campus map](https://github.com/jiashenyue/geo242/blob/main/map-coordinates-basics/georeference-miami-univ-campus-map.ipynb)
+- [Georeference a 1960s Miami University campus map](map-coordinate-basics/georeference-old-oxford.ipynb)
