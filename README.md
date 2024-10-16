@@ -1,6 +1,6 @@
 # :earth_americas: GEO 242 Mapping the Changing World :earth_americas:
 
-Shenyue Jia
+Sam Adams
 
 ## Overview
 - This repository contains Google Colab Notebooks prepared for GEO 242 @Miami University
