@@ -1,0 +1,230 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/SamBoyMeBob/geo242/blob/main/Identifying%20Raster%20Data\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# **Identify a potential raster dataset for group project**"
+      ],
+      "metadata": {
+        "id": "C0ymCPR5aSHN"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "🚀 Created by Group 2\n",
+        "\n",
+        "Members: [Andrew Lawrence, Fox Gengo, Sam Adams, Aiden Folds]\n",
+        "\n",
+        "[10/20/2024]"
+      ],
+      "metadata": {
+        "id": "Pt_OREXFPvkr"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Get ready to start**\n",
+        "\n",
+        "- Click **`File/Save a copy in Drive`** to save a copy of this notebook to my own Google Drive"
+      ],
+      "metadata": {
+        "id": "CMQN_pgaHVLO"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Overview**\n",
+        "\n",
+        "This notebook will be completed as a group assignment\n",
+        "\n",
+        "- Notes for your first group meeting\n",
+        "- Identify at least one raster dataset that can be used in your group project\n",
+        "  - Revisit our [project topic pool](https://colab.research.google.com/drive/1aLwfdEKYufJ5s0H8CxbtKfEopYriQGIi?usp=drive_link) if necessary"
+      ],
+      "metadata": {
+        "id": "6tKmlbnzny_I"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Group meeting notes**"
+      ],
+      "metadata": {
+        "id": "xlkhClF-OhVT"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Group member roles**\n",
+        "\n",
+        "*Elect a group leader if you don't have one*\n",
+        "\n",
+        "- Group leader\n",
+        "  - Andrew Lawrence\n",
+        "\n",
+        "- Group members\n",
+        "  - Fox Genco\n",
+        "  - Sam Adams\n",
+        "  - Aiden Folds\n"
+      ],
+      "metadata": {
+        "id": "gHJCvrMgRBcX"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Motivation of selecting the topic**\n",
+        "\n",
+        "*Share the motivation of selecting this topic with each other and document them in bullet points*\n",
+        "- Some of us are going into the workforce next year. Because of this understanding the current trend of working from home verus in office could be important\n",
+        "- It is interesting to see how Covid affected working from home.\n",
+        "- We want to see if the wokring from home trend may continue or if it is slowly declining over the past couple years."
+      ],
+      "metadata": {
+        "id": "Z0fMTyixQEAU"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Current thoughts on data selection and acquisition**\n",
+        "\n",
+        "*Based on the information available in the project topic pool document, do you have any idea on where and how to obtain the data mentioned?*\n",
+        "\n",
+        "Based on the current tools given from the topic pool document, we will be using the U.S. Census Commuting Dataset, which best captures the change in commuting. We will evaluate how the patterns changed between 2019 and 2021 and any differences we see. We will also try to locate various maps to help us have a better understanidng of the data. Sites like Arcgis Atlas of the world can help with this."
+      ],
+      "metadata": {
+        "id": "PAbFQQaVQRg0"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Visualization plan**\n",
+        "\n",
+        "*Does the group have a clear idea or a direction to work with to produce similiar visualization works as listed in the project topic pool document? What might be other options the team may explore to answer the research questions? Including examples of visualization is HIGHLY ENCOURAGED in this section.*\n",
+        "- We may look at other data from sites like Forbes that we find reliable\n",
+        "- We will be looking at creating divergent color maps to best showcase the data we have uncovered.\n",
+        "- We will also use this map to clearly outline data drivers within the topic question, as well as any change in patterns."
+      ],
+      "metadata": {
+        "id": "3CrZjW0XQjZl"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### **Additional thoughts**\n",
+        "\n",
+        "*Jog down any additional thoughts from the group. Feel free to add a new section title if needed.*\n",
+        "- We have found it difficult to find exact data for out specific question. Rather we have found data that can help answer our question however we migh"
+      ],
+      "metadata": {
+        "id": "3UuEZHf4Q7hO"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Raster data for group project**\n",
+        "\n",
+        "- **Provide the name and the link to the raster dataset you identified for your group project**\n",
+        "  - You can begin with the following portals\n",
+        "    - [ArcGIS Living Atlas of the World](https://livingatlas.arcgis.com/en/home/)\n",
+        "    - [NASAS WorldView](https://worldview.earthdata.nasa.gov/)\n",
+        "      - Click **Add Layers** to identify datasets for different subjects (including **human dimensions**)\n",
+        "    - [NASA Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/)\n",
+        "\n",
+        "| Name of Dataset | Dataset Producer | Link to Dataset |\n",
+        "| ---------------- | ---------------- | ---------------- |\n",
+        "| [Where are those age 65 and over who are working?] | [dianaclavery_uo] | [https://www.arcgis.com/apps/mapviewer/index.html?webmap=48638a1be455429287d6756985013910] |"
+      ],
+      "metadata": {
+        "id": "d8B4v6BIJYRw"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "- **Provide the specifics of the raster dataset you identified**\n",
+        "\n",
+        "| Spatial Resolution | Temporal Resolution* | Spatial Extent |\n",
+        "| ---------------- | ---------------- | ---------------- |\n",
+        "| [100] | [Multi-Year Basis] | [United States] |\n",
+        "\n",
+        "*Temporal resolution of data: Wheather the data is acquired on a daily, monthly, yearly, or multi-year basis*"
+      ],
+      "metadata": {
+        "id": "xuG1CFbBlawa"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "- **Why is the dataset you selected an appropriate choice for your current project?** Explain from the perspectives of the content of the data, spatial resolution, temporal resolution (daily, monthly, yearly acquisition), and/or spatial extent covered.\n",
+        "\n",
+        "*Example: I selected demographics from the 2010 and 2020 U.S. Census data to analyze the population change pattern of Ohio at a census tract level because both datasets include the count of population needed to answer the research question of this project. Plus, these metrics are collected at census-tract level to satisfy the spatial resolution needed for this project. Furthermore, the dataset is a decennial product, allowing the comparison of population across a decade.*\n",
+        "\n",
+        "We needed to find data relevant to our project, and the timeline of this dataset aligns well, as it uses the most recent American Community Survey data. The focus on the U.S. matches the scope of our research. It has been challenging to find data that clearly illustrates the trends in remote work. However, this dataset provides valuable insight into where people are currently working and how many are working remotely, offering a starting point for identifying more precise sources. This information is crucial for helping us address the rise—and potential decline—of working from home."
+      ],
+      "metadata": {
+        "id": "SKZskx02mMvl"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Save and share this notebook**\n",
+        "\n",
+        "- Make this notebook viewable by anyone with the link and submit the link to Canvas as Week 8 assignment\n",
+        "- **This is a group assignment. All members will receive the same score. Only one submission is needed.**"
+      ],
+      "metadata": {
+        "id": "kkgukjDcXsqC"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## **Reference**\n",
+        "\n",
+        "- [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)\n",
+        "- [Insert other references]"
+      ],
+      "metadata": {
+        "id": "fvMbEX89YLeY"
+      }
+    }
+  ]
+}
