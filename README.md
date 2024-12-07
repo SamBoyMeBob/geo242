@@ -17,4 +17,4 @@ Sam Adams
 - [Georeference a 1960s Miami University campus map](map-coordinate-basics/georeference-old-oxford.ipynb)
 
 ## Raster Data
--[Identifying Raster Data](raster-data/identifying-raster-data)
+- [Identifying Raster Data](raster-data/identifying-raster-data)
